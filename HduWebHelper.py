@@ -25,6 +25,7 @@ def load_driver(config):
     # driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     service = ChromeService(executable_path=config["chrome_drive_path"])
     options = ChromeOptions()
+    options.binary_location = config["chrome_exe_path"]
     # 无头模式
     if config["head_less"]:
         options.add_argument("--headless=new")

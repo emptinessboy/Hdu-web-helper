@@ -19,6 +19,7 @@ nssm下载地址：https://nssm.cc/download
 {
   "web_login_url": "",
   "chrome_drive_path": "chrome驱动程序路径",
+  "chrome_exe_path": "chrome安装路径",
   "head_less": true,
   "ignore_ssl": true,
   "check_interval": 60,
